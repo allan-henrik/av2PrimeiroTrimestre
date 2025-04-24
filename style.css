@@ -1,12 +1,14 @@
 :root{
     --cor-fundo-header: #0044cc;
     --cor-texto: #ffffff;
+    --altura-header: 80px;
 }
 
 header{
     background-color: var(--cor-fundo-header);
     color: var(--cor-texto);
     padding: 20px;
+    height: var(--altura-header);
 }
 
 header nav a{
